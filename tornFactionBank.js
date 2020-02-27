@@ -73,7 +73,7 @@ function displayFactionMoney(data, userData) {
       //const statusIcons = $('ul[class^="status-icons"]');
       const userMoney = $('#user-money');
 
-      const factMoneyP = $('<p style="font-size:.6rem;"><strong>Faction Balance:</strong></p>');
+      const factMoneyP = $('<p style="font-size:.8rem;"><strong>Faction:</strong></p>');
       const moneySpan = $('<span style="color: green;"></span>');
       factMoneyP.append(moneySpan);
       userMoney.after(factMoneyP);
